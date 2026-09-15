@@ -131,6 +131,7 @@ jobs:
             ocsp.r2m04.amazontrust.com:80
             ocsp.sectigo.com:80
             pypi.org:443
+            release-assets.githubusercontent.com:443
             s3-us-west-2.amazonaws.com:443
             telemetry-incoming.r53-2.services.mozilla.com:443
             time.windows.com:443
