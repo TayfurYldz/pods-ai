@@ -94,6 +94,7 @@ jobs:
       - name: Install FFmpeg
         if: steps.detect.outputs.should_run == 'true'
         run: |
+          # TODO: Re-evaluate setup-ffmpeg on Ubuntu when https://github.com/FedericoCarboni/setup-ffmpeg/issues/35 is resolved and revalidated; OrcaHello #642 currently validates native apt.
           sudo apt-get update
           sudo apt-get install -y ffmpeg
 
